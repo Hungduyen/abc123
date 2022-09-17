@@ -1,4 +1,9 @@
-#Bài 1:
+#Bài 1: Nhập số và kiểm tra
+arr = [4,3,1,5,9]
+
+print "min: ", arr.min, "\n"
+print "max: ", arr.max, "\n"
+print "avg: ", arr.reduce(:+).to_f / arr.length , "\n"
 
 #Bài 2: Hình tam giác
 puts 'Tính chu vi và diện tích của 1 tam giác'
@@ -44,11 +49,24 @@ else
 end
 
 #Bài 3: Nhắc nhập tên
-#puts "vui lòng nhập tên của bạn"
-#name = gets
-#puts "Xin chào #{name}! Tôi là Nguyễn Trọng Hưng!"
+puts "vui lòng nhập tên của bạn"
+name = gets
+puts "Xin chào #{name}! Tôi là Nguyễn Trọng Hưng!"
 
-#Bài 1:
+#Bài 4: tăng dần và giảm dần
+a = 3
+b = 1
+c = 2
+d = [a, b, c].sort
+puts "Tăng dần: ", d
+puts "Giảm dần: ", d.reverse
 
-#Bài 1:
+#Bài 5: in số nguyên
+a = 1
+b = 2.4
+c = "T"
+
+puts a
+puts b
+puts c
 
